@@ -19,10 +19,10 @@
         ?>
         <form action="cekLog.php" method="POST">
             <label for="floatingInputValue">Username</label>
-            <input type="text" class="form-control" id="floatingInputValue" placeholder="username" name="username" require>
+            <input type="text" class="form-control w-25" id="floatingInputValue" placeholder="username" name="username" require>
             <br><br>
             <label for="floatingInputValue">Password</label>
-            <input type="password" class="form-control" id="floatingInputValue" placeholder="password" name="password" require>
+            <input type="password" class="form-control w-25" id="floatingInputValue" placeholder="password" name="password" require>
             <br><br>
             <button type="submit" class="btn btn-primary" name="Submit" value="Add">Login</button>
         </form>
